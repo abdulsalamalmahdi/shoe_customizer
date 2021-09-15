@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Picker from '../pages/shoe'
 
 export default function Home() {
   return (
@@ -64,6 +65,7 @@ export default function Home() {
           </span>
         </a>
       </footer>
+      <Picker className={styles.logo}></Picker>
     </div>
   )
 }
